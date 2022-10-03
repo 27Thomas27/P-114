@@ -1,0 +1,28 @@
+h3
+{
+    font-size: 35px !important;
+}
+/*for the hover add the selector name and a : with hover and then the characters.*/
+.btn-success:hover
+{
+    background-color: royalblue;
+    font-size: 30px;
+}
+
+/*create a selector called canvas as we need to give animation to canvas.*/
+canvas {
+    /*animation-duration to say after how many seconds it needs to repeat the animation*/
+    animation-duration: 4s;
+     /*animation-name to say the name of the animation*/
+    animation-name: example;
+    /*animation-iteration-count to say how many times it needs to repeat the animation*/
+    animation-iteration-count: infinite;    
+}
+
+/*start coding for costume animation*/
+/*type the keyword @keyframe*/
+@keyframes example {
+    from {box-shadow:1px 1px 38px orange}
+    to{box-shadow: 1px 1px 38px green}
+}
+
